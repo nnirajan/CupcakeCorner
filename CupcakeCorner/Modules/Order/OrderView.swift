@@ -35,7 +35,13 @@ struct OrderView: View {
                     }
                 } header: {
                     Text("Special Request")
-                        .textCase(nil)
+                        .textCase(nil) /// removes default uppercase header title
+                }
+                
+                Section {
+                    NavigationLink("Delivery Detail") {
+                        AddressView(viewModel: AddressViewModel(order: viewModel.order))
+                    }
                 }
             }
             .navigationTitle("Cupcake Corner")

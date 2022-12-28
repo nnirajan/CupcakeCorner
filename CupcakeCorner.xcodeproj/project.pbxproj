@@ -18,6 +18,10 @@
 		6AC5BB1C295BFD820091ABE7 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5BB1B295BFD820091ABE7 /* OrderView.swift */; };
 		6AC5BB1E295BFD920091ABE7 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5BB1D295BFD920091ABE7 /* OrderViewModel.swift */; };
 		6AC5BB23295BFDE40091ABE7 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5BB22295BFDE40091ABE7 /* BaseViewModel.swift */; };
+		6AC5BB26295C176B0091ABE7 /* AddressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5BB25295C176B0091ABE7 /* AddressViewModel.swift */; };
+		6AC5BB28295C17720091ABE7 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5BB27295C17720091ABE7 /* AddressView.swift */; };
+		6AC5BB2B295C39E70091ABE7 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5BB2A295C39E70091ABE7 /* CheckoutView.swift */; };
+		6AC5BB2D295C39EF0091ABE7 /* CheckoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5BB2C295C39EF0091ABE7 /* CheckoutViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		6AC5BB1B295BFD820091ABE7 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		6AC5BB1D295BFD920091ABE7 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		6AC5BB22295BFDE40091ABE7 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		6AC5BB25295C176B0091ABE7 /* AddressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewModel.swift; sourceTree = "<group>"; };
+		6AC5BB27295C17720091ABE7 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		6AC5BB2A295C39E70091ABE7 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		6AC5BB2C295C39EF0091ABE7 /* CheckoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				6AC5BB1A295BFD760091ABE7 /* Order */,
+				6AC5BB24295C171A0091ABE7 /* Address */,
+				6AC5BB29295C39D50091ABE7 /* Checkout */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -126,6 +136,24 @@
 				6AC5BB22295BFDE40091ABE7 /* BaseViewModel.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		6AC5BB24295C171A0091ABE7 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				6AC5BB27295C17720091ABE7 /* AddressView.swift */,
+				6AC5BB25295C176B0091ABE7 /* AddressViewModel.swift */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
+		6AC5BB29295C39D50091ABE7 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				6AC5BB2A295C39E70091ABE7 /* CheckoutView.swift */,
+				6AC5BB2C295C39EF0091ABE7 /* CheckoutViewModel.swift */,
+			);
+			path = Checkout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +228,13 @@
 			files = (
 				6AC5BB0E295BF9250091ABE7 /* Order.swift in Sources */,
 				6A5CE82A295B0D0F0098806C /* AsyncImageDemoView.swift in Sources */,
+				6AC5BB2B295C39E70091ABE7 /* CheckoutView.swift in Sources */,
 				6A5CE82C295B10FA0098806C /* FormDemoView.swift in Sources */,
+				6AC5BB26295C176B0091ABE7 /* AddressViewModel.swift in Sources */,
 				6A5CE819295AF7830098806C /* ContentView.swift in Sources */,
 				6AC5BB1C295BFD820091ABE7 /* OrderView.swift in Sources */,
+				6AC5BB28295C17720091ABE7 /* AddressView.swift in Sources */,
+				6AC5BB2D295C39EF0091ABE7 /* CheckoutViewModel.swift in Sources */,
 				6AC5BB23295BFDE40091ABE7 /* BaseViewModel.swift in Sources */,
 				6A5CE817295AF7830098806C /* CupcakeCornerApp.swift in Sources */,
 				6A5CE828295B080A0098806C /* ItunesDemoView.swift in Sources */,

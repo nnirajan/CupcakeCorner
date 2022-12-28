@@ -9,12 +9,9 @@ import Foundation
 import Combine
 
 class BaseViewModel: ObservableObject {
-    
     // MARK: propertites
     /// The subcription cleanup bag
     public var bag: Set<AnyCancellable>
-    
-//    let networking = Networking.shared
     
     @Published var errorMessage: String = ""
     
@@ -27,5 +24,4 @@ class BaseViewModel: ObservableObject {
     deinit {
         debugPrint("De-Initialized --> \(String(describing: self))")
     }
-    
 }
